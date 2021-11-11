@@ -2,7 +2,7 @@
 title               : jordiviv.es
 description         : >-
                       "Tea, food, games, hardware and software engineering."
-baseurl             : "/home"  
+baseurl             : "/"  
 remote_theme        : https://github.com/YoussefRaafatNasry/portfolYOU
 
 
