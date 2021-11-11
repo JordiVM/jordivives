@@ -1,29 +1,17 @@
-FROM jekyll/builder AS build
+FROM jekyll/builder AS dev_builder
 
-COPY jekyll/ /srv/jekyll/
+WORKDIR /tmp
 
-WORKDIR /srv/jekyll
+COPY . /tmp
 
-RUN bundle install && bundle exec jekyll build
+RUN chown -R jekyll:jekyll /tmp
+
+RUN cd jekyll && bundle install && bundle exec jekyll build
 
 FROM nginx AS web_server
 
-COPY --from=build /srv/jekyll/_site /usr/share/nginx/html
+COPY --from=dev_builder /tmp/jekyll/_site /usr/share/nginx/html
 
 COPY nginx/default.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 8080
-
-#FROM nginx
-
-#COPY jekyll jekyll
-
-#RUN \curl -sSL https://get.rvm.io | bash -s stable && \
-#    rvm install 2.0.0 && \
-#    gem install jekyll && \
-#    cd jekyll && \
-#    jekyll build
-
-# RUN mv jekyll/_site /usr/share/nginx/html
-
-# COPY nginx/default.conf /etc/nginx/conf.d/default.conf
