@@ -1,7 +1,5 @@
 FROM jekyll/builder AS dev_builder
 
-RUN ls
-
 COPY . /tmp
 
 WORKDIR /tmp
