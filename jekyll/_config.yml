@@ -9,6 +9,7 @@ remote_theme        : https://github.com/YoussefRaafatNasry/portfolYOU
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-remote-theme
   - jekyll
 #  - jekyll-feed
   - jekyll-sitemap
