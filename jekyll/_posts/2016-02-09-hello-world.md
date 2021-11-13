@@ -1,9 +1,8 @@
 ---
 title: My first steps 
 tags: [Introduction]
-style: fill
-color: secondary
-comments: true
+style: 
+color: 
 description:
 ---
 
