@@ -1,8 +1,8 @@
 FROM jekyll/builder AS dev_builder
 
-WORKDIR /tmp
-
 COPY . /tmp
+
+WORKDIR /tmp
 
 RUN chown -R jekyll:jekyll /tmp
 
