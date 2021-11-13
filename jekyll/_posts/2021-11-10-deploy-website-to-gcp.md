@@ -1,9 +1,8 @@
 ---
-layout: post
 title: How to deploy a website to GCP
 tags: [GCP, Google Cloud, Docker, Jekyll, web development]
 style: 
-color: 
+color:
 description: Deploying a Jekyll based website on GCP using a custom domain.
 ---
 
