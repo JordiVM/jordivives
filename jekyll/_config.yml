@@ -7,10 +7,8 @@ remote_theme        : https://github.com/YoussefRaafatNasry/portfolYOU
 
 
 ### Plugins ###
-#plugins:
-#  - jemoji
 plugins:
-  - jekyll-remote-theme
+  - jemoji
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
