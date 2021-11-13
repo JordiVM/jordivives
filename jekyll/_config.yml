@@ -9,7 +9,10 @@ remote_theme        : https://github.com/YoussefRaafatNasry/portfolYOU
 ### Plugins ###
 plugins:
   - jemoji
-  - jekyll-remote-theme
+  - jekyll
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
