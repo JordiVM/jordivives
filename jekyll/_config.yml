@@ -2,7 +2,7 @@
 title               : jordiviv.es
 description         : >-
                       "Tea, food, games, hardware and software engineering."
-baseurl             : ""  
+baseurl             : "/"  
 remote_theme        : https://github.com/yousinix/portfolYOU
 
 
@@ -62,6 +62,11 @@ defaults:
     values:
       comments: false                                   # Set to true to enable disqus comments
 
+
+### Sass Configuration ###
+sass:
+  quiet_deps: true
+  verbose: false
 
 ### Exclude from processing ###
 exclude:
