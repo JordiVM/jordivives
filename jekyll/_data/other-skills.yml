@@ -1,15 +1,11 @@
-- name: Verilog
-  percentage: 60
-  color: warning
+- name: Bash
+  percentage: 80
+  color: success 
 
-- name: VHDL
-  percentage: 50
+- name: SQL
+  percentage: 70
   color: violet
 
-- name: LaTeX
-  percentage: 70
-  color: danger
-
-- name: Bash
+- name: Docker
   percentage: 60
-  color: success 
+  color: warning

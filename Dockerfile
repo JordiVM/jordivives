@@ -6,7 +6,7 @@ WORKDIR /tmp
 
 RUN chown -R jekyll:jekyll /tmp
 
-RUN cd jekyll && bundle install && bundle exec jekyll build
+RUN cd jekyll && bundle install && bundle exec jekyll build --trace
 
 FROM nginx AS web_server
 
