@@ -1,9 +1,19 @@
-- title: Software Embedded Engineer at Duagon, Zürich
-  from: 10/2019
+- title: DevOps Engineer at Livingdocs, Zürich
+  from: 06/2022
   to: present
   description:
-    #- Design and development of a RISC-V based SoC (Scala, Verilator (C++), gcc, gdb)
-    #- Implementation of SoC in Altera and Gowin FPGAs (Quartus and Gowin EDA)
+    - Managing cloud infrastructure on Azure and AWS
+    - Managing Kubernetes cluster on AKS with Helm and FluxCD
+    - Automating infrastructure and deployments with Terraform and Helm
+    - Implementing CI/CD pipelines using DroneCI and FluxCD
+    - Developing internal tools and scripts with NodeJS
+
+- title: Software Embedded Engineer at Duagon, Zürich
+  from: 10/2019
+  to: 05/2022
+  description:
+    - Design and development of a RISC-V based SoC (Scala, Verilator (C++), gcc, gdb)
+    - Implementation of SoC in Altera and Gowin FPGAs (Quartus and Gowin EDA)
     - FPGA development and implementation on Altera platform (Quartus)
     - Perform firmware and documentation updates (Git, Python)
 
